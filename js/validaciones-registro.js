@@ -1,12 +1,4 @@
-
-
-
-correo
-direccion
-password
-password2
-
-$(document).ready(function() {
+$(document).ready(function () {
   $("#formulario-registro").validate({
     rules: {
       rut: {
@@ -42,7 +34,7 @@ $(document).ready(function() {
       nombres: {
         required: "El nombre debe tener un valor valido",
       },
-      apellidos:{
+      apellidos: {
         required: "El apellido debe tener un valor valido",
       },
       correo: {

@@ -187,3 +187,7 @@ button[type="submit"] {
   margin: 100px;
   background-color: #fafafa;
 }
+
+.error{
+  color: red;
+}
